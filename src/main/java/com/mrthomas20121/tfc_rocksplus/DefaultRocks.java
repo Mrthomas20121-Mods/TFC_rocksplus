@@ -16,8 +16,8 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 @Mod.EventBusSubscriber(modid = MODID)
 public class DefaultRocks {
     // igneous rocks
-    public static final ResourceLocation BLAIMORITE = new ResourceLocation(MODID, "blairmorite");
-    public static final ResourceLocation BONINITE = new ResourceLocation(MODID, "Boninite");
+    public static final ResourceLocation BLAIMORITE = new ResourceLocation(MODID, "blaimorite");
+    public static final ResourceLocation BONINITE = new ResourceLocation(MODID, "boninite");
     public static final ResourceLocation CARBONATITE = new ResourceLocation(MODID, "carbonatite");
     public static final ResourceLocation FOIDOLITE = new ResourceLocation(MODID, "foidolite");
 
