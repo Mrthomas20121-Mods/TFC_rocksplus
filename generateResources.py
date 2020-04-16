@@ -31,6 +31,14 @@ if not os.path.isdir('assets_backups'):
             file=f)
         print('*', file=f)
 
+if not os.path.isdir('src/main/resources/assets/tfc/lang'):
+    os.mkdir('src/main/resources/assets/tfc/lang')
+    # with open('assets_backups/.gitignore', 'w') as f:
+    #     print(
+    #         '# This folder does not belong on git. Not even as an empty folder, so we ignore everything, incl. this file.',
+    #         file=f)
+    #     print('*', file=f)
+
 zipfolder('assets_backups/{}.zip'.format(int(time.time())), 'src/main/resources/assets/tfc')
 
 os.chdir('src/main/resources/assets/tfc/')
@@ -153,6 +161,11 @@ GRASS_TYPES = [
     'grass',
     'dry_grass',
 ]
+
+def lang() :
+    entries = open('src/main/resources/assets/tfc/lang/en_us.lang')
+    for rock in ROCK_TYPES :
+        
 
 
 def del_none(d):
