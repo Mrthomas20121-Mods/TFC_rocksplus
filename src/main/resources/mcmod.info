@@ -1,0 +1,16 @@
+[
+{
+  "modid": "tfc_rocksplus",
+  "name": "TFC Rocks+",
+  "description": "Add New Rock Types to TFC.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/Mrthomas20121/TFC_rockplus",
+  "updateUrl": "",
+  "authorList": ["Mrthomas20121"],
+  "credits": "TFC For its clean code.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
