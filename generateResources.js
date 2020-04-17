@@ -87,8 +87,9 @@ let GRASS_TYPES = [
 
 let DECORATION_TYPES = [
   'stairs',
-  'stab',
-  'double_slab'
+  'slab',
+  'double_slab',
+  'wall'
 ]
 
 function capitalizeFirstLetter(str) {
@@ -101,6 +102,12 @@ for (let rockType of ROCK_TYPES) {
 
   // spikes
   langEntries = langEntries.concat(`tile.tfc.spike.${rockType}.name=${capitalizeFirstLetter(rockType)} Spike \n`)
+
+  // buttons
+  langEntries = langEntries.concat(`tile.tfc.stone.button.${rockType}.name=${capitalizeFirstLetter(rockType)} Spike \n`)
+
+  // rock item
+  langEntries = langEntries.concat(`item.tfc.rock.${rockType}.name=${capitalizeFirstLetter(rockType)} Rock\n`)
 
   for (let blockType of FULLBLOCK_TYPES) {
     langEntries = langEntries.concat(`tile.tfc.${blockType}.${rockType}.name=${capitalizeFirstLetter(blockType)} ${capitalizeFirstLetter(rockType)}\n`)
