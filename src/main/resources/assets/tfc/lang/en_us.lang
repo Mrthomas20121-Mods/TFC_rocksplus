@@ -1,4 +1,5 @@
 # blaimorite
+tile.tfc.spike.blaimorite.name=Blaimorite Spike 
 tile.tfc.raw.blaimorite.name=Raw Blaimorite
 tile.tfc.smooth.blaimorite.name=Smooth Blaimorite
 tile.tfc.cobble.blaimorite.name=Cobble Blaimorite
@@ -68,7 +69,9 @@ tile.tfc.ore.pyrolusite.blaimorite.name=Blaimorite Pyrolusite
 tile.tfc.ore.magnesite.blaimorite.name=Blaimorite Magnesite
 tile.tfc.ore.boron.blaimorite.name=Blaimorite Boron
 tile.tfc.ore.spodumene.blaimorite.name=Blaimorite Spodumene
+tile.tfc.ore.stibnite.blaimorite.name=Blaimorite Stibnite
 # boninite
+tile.tfc.spike.boninite.name=Boninite Spike 
 tile.tfc.raw.boninite.name=Raw Boninite
 tile.tfc.smooth.boninite.name=Smooth Boninite
 tile.tfc.cobble.boninite.name=Cobble Boninite
@@ -138,7 +141,9 @@ tile.tfc.ore.pyrolusite.boninite.name=Boninite Pyrolusite
 tile.tfc.ore.magnesite.boninite.name=Boninite Magnesite
 tile.tfc.ore.boron.boninite.name=Boninite Boron
 tile.tfc.ore.spodumene.boninite.name=Boninite Spodumene
+tile.tfc.ore.stibnite.boninite.name=Boninite Stibnite
 # carbonatite
+tile.tfc.spike.carbonatite.name=Carbonatite Spike 
 tile.tfc.raw.carbonatite.name=Raw Carbonatite
 tile.tfc.smooth.carbonatite.name=Smooth Carbonatite
 tile.tfc.cobble.carbonatite.name=Cobble Carbonatite
@@ -208,7 +213,9 @@ tile.tfc.ore.pyrolusite.carbonatite.name=Carbonatite Pyrolusite
 tile.tfc.ore.magnesite.carbonatite.name=Carbonatite Magnesite
 tile.tfc.ore.boron.carbonatite.name=Carbonatite Boron
 tile.tfc.ore.spodumene.carbonatite.name=Carbonatite Spodumene
+tile.tfc.ore.stibnite.carbonatite.name=Carbonatite Stibnite
 # foidolite
+tile.tfc.spike.foidolite.name=Foidolite Spike 
 tile.tfc.raw.foidolite.name=Raw Foidolite
 tile.tfc.smooth.foidolite.name=Smooth Foidolite
 tile.tfc.cobble.foidolite.name=Cobble Foidolite
@@ -278,7 +285,9 @@ tile.tfc.ore.pyrolusite.foidolite.name=Foidolite Pyrolusite
 tile.tfc.ore.magnesite.foidolite.name=Foidolite Magnesite
 tile.tfc.ore.boron.foidolite.name=Foidolite Boron
 tile.tfc.ore.spodumene.foidolite.name=Foidolite Spodumene
+tile.tfc.ore.stibnite.foidolite.name=Foidolite Stibnite
 # arkose
+tile.tfc.spike.arkose.name=Arkose Spike 
 tile.tfc.raw.arkose.name=Raw Arkose
 tile.tfc.smooth.arkose.name=Smooth Arkose
 tile.tfc.cobble.arkose.name=Cobble Arkose
@@ -348,7 +357,9 @@ tile.tfc.ore.pyrolusite.arkose.name=Arkose Pyrolusite
 tile.tfc.ore.magnesite.arkose.name=Arkose Magnesite
 tile.tfc.ore.boron.arkose.name=Arkose Boron
 tile.tfc.ore.spodumene.arkose.name=Arkose Spodumene
+tile.tfc.ore.stibnite.arkose.name=Arkose Stibnite
 # jaspillite
+tile.tfc.spike.jaspillite.name=Jaspillite Spike 
 tile.tfc.raw.jaspillite.name=Raw Jaspillite
 tile.tfc.smooth.jaspillite.name=Smooth Jaspillite
 tile.tfc.cobble.jaspillite.name=Cobble Jaspillite
@@ -418,7 +429,9 @@ tile.tfc.ore.pyrolusite.jaspillite.name=Jaspillite Pyrolusite
 tile.tfc.ore.magnesite.jaspillite.name=Jaspillite Magnesite
 tile.tfc.ore.boron.jaspillite.name=Jaspillite Boron
 tile.tfc.ore.spodumene.jaspillite.name=Jaspillite Spodumene
+tile.tfc.ore.stibnite.jaspillite.name=Jaspillite Stibnite
 # travertine
+tile.tfc.spike.travertine.name=Travertine Spike 
 tile.tfc.raw.travertine.name=Raw Travertine
 tile.tfc.smooth.travertine.name=Smooth Travertine
 tile.tfc.cobble.travertine.name=Cobble Travertine
@@ -488,7 +501,9 @@ tile.tfc.ore.pyrolusite.travertine.name=Travertine Pyrolusite
 tile.tfc.ore.magnesite.travertine.name=Travertine Magnesite
 tile.tfc.ore.boron.travertine.name=Travertine Boron
 tile.tfc.ore.spodumene.travertine.name=Travertine Spodumene
+tile.tfc.ore.stibnite.travertine.name=Travertine Stibnite
 # wackestone
+tile.tfc.spike.wackestone.name=Wackestone Spike 
 tile.tfc.raw.wackestone.name=Raw Wackestone
 tile.tfc.smooth.wackestone.name=Smooth Wackestone
 tile.tfc.cobble.wackestone.name=Cobble Wackestone
@@ -558,7 +573,9 @@ tile.tfc.ore.pyrolusite.wackestone.name=Wackestone Pyrolusite
 tile.tfc.ore.magnesite.wackestone.name=Wackestone Magnesite
 tile.tfc.ore.boron.wackestone.name=Wackestone Boron
 tile.tfc.ore.spodumene.wackestone.name=Wackestone Spodumene
+tile.tfc.ore.stibnite.wackestone.name=Wackestone Stibnite
 # blueschist
+tile.tfc.spike.blueschist.name=Blueschist Spike 
 tile.tfc.raw.blueschist.name=Raw Blueschist
 tile.tfc.smooth.blueschist.name=Smooth Blueschist
 tile.tfc.cobble.blueschist.name=Cobble Blueschist
@@ -628,7 +645,9 @@ tile.tfc.ore.pyrolusite.blueschist.name=Blueschist Pyrolusite
 tile.tfc.ore.magnesite.blueschist.name=Blueschist Magnesite
 tile.tfc.ore.boron.blueschist.name=Blueschist Boron
 tile.tfc.ore.spodumene.blueschist.name=Blueschist Spodumene
+tile.tfc.ore.stibnite.blueschist.name=Blueschist Stibnite
 # greenschist
+tile.tfc.spike.greenschist.name=Greenschist Spike 
 tile.tfc.raw.greenschist.name=Raw Greenschist
 tile.tfc.smooth.greenschist.name=Smooth Greenschist
 tile.tfc.cobble.greenschist.name=Cobble Greenschist
@@ -698,7 +717,9 @@ tile.tfc.ore.pyrolusite.greenschist.name=Greenschist Pyrolusite
 tile.tfc.ore.magnesite.greenschist.name=Greenschist Magnesite
 tile.tfc.ore.boron.greenschist.name=Greenschist Boron
 tile.tfc.ore.spodumene.greenschist.name=Greenschist Spodumene
+tile.tfc.ore.stibnite.greenschist.name=Greenschist Stibnite
 # cataclasite
+tile.tfc.spike.cataclasite.name=Cataclasite Spike 
 tile.tfc.raw.cataclasite.name=Raw Cataclasite
 tile.tfc.smooth.cataclasite.name=Smooth Cataclasite
 tile.tfc.cobble.cataclasite.name=Cobble Cataclasite
@@ -768,7 +789,9 @@ tile.tfc.ore.pyrolusite.cataclasite.name=Cataclasite Pyrolusite
 tile.tfc.ore.magnesite.cataclasite.name=Cataclasite Magnesite
 tile.tfc.ore.boron.cataclasite.name=Cataclasite Boron
 tile.tfc.ore.spodumene.cataclasite.name=Cataclasite Spodumene
+tile.tfc.ore.stibnite.cataclasite.name=Cataclasite Stibnite
 # mylonite
+tile.tfc.spike.mylonite.name=Mylonite Spike 
 tile.tfc.raw.mylonite.name=Raw Mylonite
 tile.tfc.smooth.mylonite.name=Smooth Mylonite
 tile.tfc.cobble.mylonite.name=Cobble Mylonite
@@ -838,3 +861,4 @@ tile.tfc.ore.pyrolusite.mylonite.name=Mylonite Pyrolusite
 tile.tfc.ore.magnesite.mylonite.name=Mylonite Magnesite
 tile.tfc.ore.boron.mylonite.name=Mylonite Boron
 tile.tfc.ore.spodumene.mylonite.name=Mylonite Spodumene
+tile.tfc.ore.stibnite.mylonite.name=Mylonite Stibnite
