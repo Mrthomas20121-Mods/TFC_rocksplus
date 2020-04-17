@@ -99,7 +99,7 @@ function capitalizeFirstLetter(str) {
 
 for (let rockType of ROCK_TYPES) {
   langEntries = langEntries.concat(`# ${rockType}\n`)
-  
+
   // spikes
   langEntries = langEntries.concat(`tile.tfc.spike.${rockType}.name=${capitalizeFirstLetter(rockType)} Spike \n`)
 
@@ -110,7 +110,12 @@ for (let rockType of ROCK_TYPES) {
   langEntries = langEntries.concat(`item.tfc.rock.${rockType}.name=${capitalizeFirstLetter(rockType)} Rock\n`)
 
   for (let blockType of FULLBLOCK_TYPES) {
-    langEntries = langEntries.concat(`tile.tfc.${blockType}.${rockType}.name=${capitalizeFirstLetter(blockType)} ${capitalizeFirstLetter(rockType)}\n`)
+    if(blockType == 'cobble') {
+      langEntries = langEntries.concat(`tile.tfc.${blockType}.${rockType}.name=${capitalizeFirstLetter(rockType)} ${capitalizeFirstLetter(blockType)}\n`)
+    }
+    else {
+      langEntries = langEntries.concat(`tile.tfc.${blockType}.${rockType}.name=${capitalizeFirstLetter(blockType)} ${capitalizeFirstLetter(rockType)}\n`)
+    }
   }
   for (let grassType of GRASS_TYPES) {
     if(!['FarmLand', 'grass', 'path'].includes(grassType))
@@ -126,7 +131,12 @@ for (let rockType of ROCK_TYPES) {
         langEntries = langEntries.concat(`tile.tfc.${decorationType.toLowerCase()}.${type}.${rockType}.name=${capitalizeFirstLetter(type)} ${capitalizeFirstLetter(rockType)} ${capitalizeFirstLetter(decorationType.split('_')[0])} ${capitalizeFirstLetter(decorationType.split('_')[1])}\n`)
       }
       else {
-        langEntries = langEntries.concat(`tile.tfc.${decorationType.toLowerCase()}.${type}.${rockType}.name=${capitalizeFirstLetter(type)} ${capitalizeFirstLetter(rockType)} ${capitalizeFirstLetter(decorationType)}\n`);
+        if(type == 'bricks' || type == 'cobble') {
+          langEntries = langEntries.concat(`tile.tfc.${decorationType.toLowerCase()}.${type}.${rockType}.name=${capitalizeFirstLetter(rockType)} ${capitalizeFirstLetter(type)} ${capitalizeFirstLetter(decorationType)}\n`);
+        }
+        else {
+          langEntries = langEntries.concat(`tile.tfc.${decorationType.toLowerCase()}.${type}.${rockType}.name=${capitalizeFirstLetter(type)} ${capitalizeFirstLetter(rockType)} ${capitalizeFirstLetter(decorationType)}\n`);
+        }
       }
     }
   }
