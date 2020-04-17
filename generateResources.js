@@ -99,7 +99,7 @@ function capitalizeFirstLetter(str) {
 
 for (let rockType of ROCK_TYPES) {
   langEntries = langEntries.concat(`# ${rockType}\n`)
-
+  
   // spikes
   langEntries = langEntries.concat(`tile.tfc.spike.${rockType}.name=${capitalizeFirstLetter(rockType)} Spike \n`)
 
