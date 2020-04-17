@@ -65,6 +65,7 @@ let ORE_TYPES = {
   'magnesite': false,
   'boron': false,
   'spodumene': false,
+  'stibnite': false
 }
 let FULLBLOCK_TYPES = [
   'raw',
@@ -97,6 +98,10 @@ function capitalizeFirstLetter(str) {
 
 for (let rockType of ROCK_TYPES) {
   langEntries = langEntries.concat(`# ${rockType}\n`)
+
+  // spikes
+  langEntries = langEntries.concat(`tile.tfc.spike.${rockType}.name=${capitalizeFirstLetter(rockType)} Spike \n`)
+
   for (let blockType of FULLBLOCK_TYPES) {
     langEntries = langEntries.concat(`tile.tfc.${blockType}.${rockType}.name=${capitalizeFirstLetter(blockType)} ${capitalizeFirstLetter(rockType)}\n`)
   }

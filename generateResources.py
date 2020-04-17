@@ -95,6 +95,19 @@ ORE_TYPES = {
     'borax': False,
     'olivine': False,
     'lapis_lazuli': False,
+    'native_ardite': True,
+    'rutile': True,
+    'native_osmium': True,
+    'bauxite': True,
+    'wolframite': True,
+    'cobaltite': True,
+    'thorianite': False,
+    'chromite': False,
+    'pyrolusite': False,
+    'magnesite': False,
+    'boron': False,
+    'spodumene': False,
+    'stibnite': False
 }
 
 STAIR_VARIANTS = {
@@ -161,10 +174,6 @@ GRASS_TYPES = [
     'grass',
     'dry_grass',
 ]
-
-def lang() :
-    entries = open('src/main/resources/assets/tfc/lang/en_us.lang')
-    for rock in ROCK_TYPES :
         
 
 
