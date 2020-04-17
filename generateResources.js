@@ -53,6 +53,18 @@ let ORE_TYPES = {
   'borax': false,
   'olivine': false,
   'lapis_lazuli': false,
+  'native_ardite': true,
+  'rutile': true,
+  'native_osmium': true,
+  'bauxite': true,
+  'wolframite': true,
+  'cobaltite': true,
+  'thorianite': false,
+  'chromite': false,
+  'pyrolusite': false,
+  'magnesite': false,
+  'boron': false,
+  'spodumene': false,
 }
 let FULLBLOCK_TYPES = [
   'raw',
