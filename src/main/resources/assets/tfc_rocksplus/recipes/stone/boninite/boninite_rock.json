@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tfc:cobble/boninite"
+    }
+  ],
+  "result": {
+    "item": "tfc:rock/boninite",
+    "count": 4
+  }
+}

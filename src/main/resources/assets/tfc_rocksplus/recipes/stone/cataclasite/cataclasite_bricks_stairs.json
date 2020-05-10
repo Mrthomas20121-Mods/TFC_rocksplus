@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X  ",
+    "XX ",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "tfc:bricks/cataclasite"
+    }
+  },
+  "result": {
+    "item": "tfc:stairs/bricks/cataclasite",
+    "count": 8
+  }
+}

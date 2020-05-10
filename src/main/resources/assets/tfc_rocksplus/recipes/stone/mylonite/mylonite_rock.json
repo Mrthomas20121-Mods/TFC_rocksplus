@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tfc:cobble/mylonite"
+    }
+  ],
+  "result": {
+    "item": "tfc:rock/mylonite",
+    "count": 4
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "tfc:bricks/jaspillite"
+    }
+  },
+  "result": {
+    "item": "tfc:wall/bricks/jaspillite",
+    "count": 8
+  }
+}

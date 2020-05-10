@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X  ",
+    "XX ",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "tfc:smooth/blueschist"
+    }
+  },
+  "result": {
+    "item": "tfc:stairs/smooth/blueschist",
+    "count": 8
+  }
+}

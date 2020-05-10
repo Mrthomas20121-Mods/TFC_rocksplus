@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tfc:cobble/jaspillite"
+    }
+  ],
+  "result": {
+    "item": "tfc:rock/jaspillite",
+    "count": 4
+  }
+}

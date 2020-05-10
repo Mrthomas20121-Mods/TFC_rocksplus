@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X  ",
+    "XX ",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "tfc:smooth/arkose"
+    }
+  },
+  "result": {
+    "item": "tfc:stairs/smooth/arkose",
+    "count": 8
+  }
+}

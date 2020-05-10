@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tfc:cobble/greenschist"
+    }
+  ],
+  "result": {
+    "item": "tfc:rock/greenschist",
+    "count": 4
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tfc:cobble/wackestone"
+    }
+  ],
+  "result": {
+    "item": "tfc:rock/wackestone",
+    "count": 4
+  }
+}

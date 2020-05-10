@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X  ",
+    "XX ",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "tfc:cobble/foidolite"
+    }
+  },
+  "result": {
+    "item": "tfc:stairs/cobble/foidolite",
+    "count": 8
+  }
+}

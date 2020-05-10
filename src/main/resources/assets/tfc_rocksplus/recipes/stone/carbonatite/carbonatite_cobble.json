@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "key": {
+    "X": {
+      "item": "tfc:rock/carbonatite"
+    }
+  },
+  "result": {
+    "item": "tfc:cobble/carbonatite",
+    "count": 1
+  }
+}

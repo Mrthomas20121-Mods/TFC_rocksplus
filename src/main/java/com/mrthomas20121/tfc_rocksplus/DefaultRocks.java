@@ -1,6 +1,7 @@
 package com.mrthomas20121.tfc_rocksplus;
 
 import static com.mrthomas20121.tfc_rocksplus.TFC_RocksPlus.MODID;
+import static net.dries007.tfc.TerraFirmaCraft.MOD_ID;
 import static net.dries007.tfc.types.DefaultRocks.METAMORPHIC;
 import static net.dries007.tfc.types.DefaultRocks.SEDIMENTARY;
 import static net.dries007.tfc.types.DefaultRocks.IGNEOUS_INTRUSIVE;
@@ -16,23 +17,22 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 @Mod.EventBusSubscriber(modid = MODID)
 public class DefaultRocks {
     // igneous rocks
-    public static final ResourceLocation BLAIMORITE = new ResourceLocation(MODID, "blaimorite");
-    public static final ResourceLocation BONINITE = new ResourceLocation(MODID, "boninite");
-    public static final ResourceLocation CARBONATITE = new ResourceLocation(MODID, "carbonatite");
-    public static final ResourceLocation FOIDOLITE = new ResourceLocation(MODID, "foidolite");
+    public static final ResourceLocation BLAIMORITE = new ResourceLocation(MOD_ID, "blaimorite");
+    public static final ResourceLocation BONINITE = new ResourceLocation(MOD_ID, "boninite");
+    public static final ResourceLocation CARBONATITE = new ResourceLocation(MOD_ID, "carbonatite");
+    public static final ResourceLocation FOIDOLITE = new ResourceLocation(MOD_ID, "foidolite");
 
     // sedimentary rocks
-    public static final ResourceLocation ARKOSE = new ResourceLocation(MODID, "arkose");
-    public static final ResourceLocation JASPILLITE = new ResourceLocation(MODID, "jaspillite");
-    public static final ResourceLocation TRAVERTINE = new ResourceLocation(MODID, "travertine");
-    public static final ResourceLocation WACKESTONE = new ResourceLocation(MODID, "wackestone");
+    public static final ResourceLocation ARKOSE = new ResourceLocation(MOD_ID, "arkose");
+    public static final ResourceLocation JASPILLITE = new ResourceLocation(MOD_ID, "jaspillite");
+    public static final ResourceLocation TRAVERTINE = new ResourceLocation(MOD_ID, "travertine");
+    public static final ResourceLocation WACKESTONE = new ResourceLocation(MOD_ID, "wackestone");
 
     // metamorphic rocks
-    public static final ResourceLocation BLUESCHIST = new ResourceLocation(MODID, "blueschist");
-    public static final ResourceLocation GREENSCHIST = new ResourceLocation(MODID, "greenschist");
-    public static final ResourceLocation CATACLASITE = new ResourceLocation(MODID, "cataclasite");
-    public static final ResourceLocation MYLONITE = new ResourceLocation(MODID, "mylonite");
-
+    public static final ResourceLocation BLUESCHIST = new ResourceLocation(MOD_ID, "blueschist");
+    public static final ResourceLocation GREENSCHIST = new ResourceLocation(MOD_ID, "greenschist");
+    public static final ResourceLocation CATACLASITE = new ResourceLocation(MOD_ID, "cataclasite");
+    public static final ResourceLocation MYLONITE = new ResourceLocation(MOD_ID, "mylonite");
 
     @SubscribeEvent
     public static void onPreRegisterRock(TFCRegistryEvent.RegisterPreBlock<Rock> event)

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tfc:cobble/arkose"
+    }
+  ],
+  "result": {
+    "item": "tfc:rock/arkose",
+    "count": 4
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "tfc:damage_item_shapeless",
+  "ingredients": [
+    {
+      "item": "tfc:rock/carbonatite"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "chisel"
+    }
+  ],
+  "result": {
+    "item": "tfc:brick/carbonatite",
+    "count": 1
+  }
+}

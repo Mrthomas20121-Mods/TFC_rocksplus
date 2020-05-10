@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "key": {
+    "X": {
+      "item": "tfc:rock/greenschist"
+    }
+  },
+  "result": {
+    "item": "tfc:cobble/greenschist",
+    "count": 1
+  }
+}

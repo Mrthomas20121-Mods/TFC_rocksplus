@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tfc:cobble/cataclasite"
+    }
+  ],
+  "result": {
+    "item": "tfc:rock/cataclasite",
+    "count": 4
+  }
+}

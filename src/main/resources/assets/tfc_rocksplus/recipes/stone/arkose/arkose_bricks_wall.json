@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "tfc:bricks/arkose"
+    }
+  },
+  "result": {
+    "item": "tfc:wall/bricks/arkose",
+    "count": 8
+  }
+}

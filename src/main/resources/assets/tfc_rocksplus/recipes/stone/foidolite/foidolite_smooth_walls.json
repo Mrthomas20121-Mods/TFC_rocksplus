@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "tfc:smooth/foidolite"
+    }
+  },
+  "result": {
+    "item": "tfc:wall/smooth/foidolite",
+    "count": 8
+  }
+}

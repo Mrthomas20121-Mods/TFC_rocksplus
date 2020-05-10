@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X  ",
+    "XX ",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "tfc:bricks/greenschist"
+    }
+  },
+  "result": {
+    "item": "tfc:stairs/bricks/greenschist",
+    "count": 8
+  }
+}

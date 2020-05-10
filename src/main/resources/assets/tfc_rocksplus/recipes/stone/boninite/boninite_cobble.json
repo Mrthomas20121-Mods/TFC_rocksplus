@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "key": {
+    "X": {
+      "item": "tfc:rock/boninite"
+    }
+  },
+  "result": {
+    "item": "tfc:cobble/boninite",
+    "count": 1
+  }
+}

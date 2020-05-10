@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "tfc:cobble/wackestone"
+    }
+  },
+  "result": {
+    "item": "tfc:wall/cobble/wackestone",
+    "count": 8
+  }
+}
