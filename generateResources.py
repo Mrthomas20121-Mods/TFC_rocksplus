@@ -107,7 +107,8 @@ ORE_TYPES = {
     'magnesite': False,
     'boron': False,
     'spodumene': False,
-    'stibnite': False
+    'stibnite': False,
+	'mawsonite': False
 }
 
 STAIR_VARIANTS = {
