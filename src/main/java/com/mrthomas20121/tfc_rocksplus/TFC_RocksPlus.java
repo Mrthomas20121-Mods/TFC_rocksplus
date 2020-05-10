@@ -1,7 +1,6 @@
 package com.mrthomas20121.tfc_rocksplus;
 
 import com.mrthomas20121.tfc_rocksplus.proxy.CommonProxy;
-import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -15,7 +14,7 @@ public class TFC_RocksPlus
 {
     public static final String MODID = "tfc_rocksplus";
     public static final String NAME = "TFC Rocks+";
-    public static final String VERSION = "1.2";
+    public static final String VERSION = "1.3.1";
 
     private static Logger logger;
 
@@ -27,6 +26,7 @@ public class TFC_RocksPlus
     {
         logger = event.getModLog();
         proxy.preInit(event);
+        VeinLoader.INSTANCE.preInit(event.getModConfigurationDirectory());
     }
 
     @EventHandler
