@@ -18,6 +18,30 @@ let ROCK_TYPES = [
   'mylonite'
 ]
 
+let ROCK_TYPES_TFC = [
+  'granite',
+  'diorite',
+  'gabbro',
+  'shale',
+  'claystone',
+  'rocksalt',
+  'limestone',
+  'conglomerate',
+  'dolomite',
+  'chert',
+  'chalk',
+  'rhyolite',
+  'basalt',
+  'andesite',
+  'dacite',
+  'quartzite',
+  'slate',
+  'phyllite',
+  'schist',
+  'gneiss',
+  'marble'
+]
+
 let ORE_TYPES = {
   'native_copper': true,
   'native_gold': true,
@@ -94,19 +118,55 @@ let DECORATION_TYPES = [
   'wall'
 ]
 
+/**
+ * 
+ * @param {String} str 
+ */
 function capitalizeFirstLetter(str) {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
+function space() {
+  langEntries = langEntries.concat('\n')
+}
+function comments(message) {
+  langEntries = langEntries.concat(`# ${message}\n`)
+}
 
-
+langEntries = langEntries.concat('vein.jaspillite_hematite.name=Jaspillite Hematite\n')
+langEntries = langEntries.concat('vein.pitchblende.name=Pitchblende\n')
+langEntries = langEntries.concat('vein.olivine.name=Olivine\n')
+comments('Mawsonite');
+langEntries = langEntries.concat('vein.mawsonite.name=Mawsonite\n')
+langEntries = langEntries.concat('item.tfc.ore.mawsonite.name=Mawsonite\n')
+space();
+comments('ores');
+for (let rockType of ROCK_TYPES_TFC) {
+  let oreType = 'mawsonite';
+  if(oreType.includes('_')) {
+    langEntries = langEntries.concat(`tile.tfc.ore.${oreType.toLowerCase()}.${rockType}.name=${capitalizeFirstLetter(rockType)} ${capitalizeFirstLetter(oreType.split('_')[0])} ${capitalizeFirstLetter(oreType.split('_')[1])}\n`);
+  }
+  else {
+    langEntries = langEntries.concat(`tile.tfc.ore.${oreType.toLowerCase()}.${rockType}.name=${capitalizeFirstLetter(rockType)} ${capitalizeFirstLetter(oreType)}\n`);
+  }
+}
+space();
 for (let rockType of ROCK_TYPES) {
-  langEntries = langEntries.concat(`# ${rockType}\n`)
+  for (let oreType of Object.keys(ORE_TYPES)) {
+    if(oreType.includes('_')) {
+      langEntries = langEntries.concat(`tile.tfc.ore.${oreType.toLowerCase()}.${rockType}.name=${capitalizeFirstLetter(rockType)} ${capitalizeFirstLetter(oreType.split('_')[0])} ${capitalizeFirstLetter(oreType.split('_')[1])}\n`);
+    }
+    else {
+      langEntries = langEntries.concat(`tile.tfc.ore.${oreType.toLowerCase()}.${rockType}.name=${capitalizeFirstLetter(rockType)} ${capitalizeFirstLetter(oreType)}\n`);
+    }
+  }
+
+  comments(rockType);
 
   // spikes
   langEntries = langEntries.concat(`tile.tfc.spike.${rockType}.name=${capitalizeFirstLetter(rockType)} Spike \n`)
 
   // buttons
-  langEntries = langEntries.concat(`tile.tfc.stone.button.${rockType}.name=${capitalizeFirstLetter(rockType)} Spike \n`)
+  langEntries = langEntries.concat(`tile.tfc.stone.button.${rockType}.name=${capitalizeFirstLetter(rockType)} Button \n`)
 
   // rock item
   langEntries = langEntries.concat(`item.tfc.rock.${rockType}.name=${capitalizeFirstLetter(rockType)} Rock\n`)
@@ -143,16 +203,7 @@ for (let rockType of ROCK_TYPES) {
       }
     }
   }
-  for (let oreType of Object.keys(ORE_TYPES)) {
-    if(oreType.includes('_')) {
-      langEntries = langEntries.concat(`tile.tfc.ore.${oreType.toLowerCase()}.${rockType}.name=${capitalizeFirstLetter(rockType)} ${capitalizeFirstLetter(oreType.split('_')[0])} ${capitalizeFirstLetter(oreType.split('_')[1])}\n`);
-    }
-    else {
-      langEntries = langEntries.concat(`tile.tfc.ore.${oreType.toLowerCase()}.${rockType}.name=${capitalizeFirstLetter(rockType)} ${capitalizeFirstLetter(oreType)}\n`);
-    }
-  }
 }
-
 console.log("Finished Generating Lang entries!");
 
 fs.writeFileSync('./src/main/resources/assets/tfc/lang/en_us.lang', langEntries,'utf8');
@@ -422,4 +473,4 @@ function generateRecipes() {
 }
 
 // used to generate recipes for the various stones
-generateRecipes();
+//generateRecipes();

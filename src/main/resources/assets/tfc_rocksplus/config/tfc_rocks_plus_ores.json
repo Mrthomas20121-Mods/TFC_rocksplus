@@ -1,6 +1,6 @@
 {
   "mawsonite": {
-    "ore": "tfc:mawsonite",
+    "ore": "tfc_rocksplus:mawsonite",
     "width": 24,
     "height": 32,
     "shape": "cluster",
@@ -10,10 +10,51 @@
     "density": 70,
     "base_rocks": [
       "tfc:greenschist",
-	  "tfc:blueschist",
-	  "tfc:schist",
-	  "tfc:marble",
-	  "tfc:quartzite"
+      "tfc:blueschist",
+      "tfc:schist",
+      "tfc:marble",
+      "tfc:quartzite"
+    ]
+  },
+  "olivine": {
+    "ore": "tfc:olivine",
+    "width": 24,
+    "height": 32,
+    "shape": "cluster",
+    "rarity": 60,
+    "minimum_height": 100,
+    "maximum_height": 160,
+    "density": 70,
+    "base_rocks": [
+      "tfc:sedimentary"
+    ]
+  },
+  "pitchblende": {
+    "ore": "tfc:pitchblende",
+    "width": 24,
+    "height": 48,
+    "shape": "cluster",
+    "rarity": 50,
+    "minimum_height": 5,
+    "maximum_height": 160,
+    "density": 70,
+    "base_rocks": [
+      "tfc:metamorphic",
+      "tfc:wackestone",
+      "tfc:travertine"
+    ]
+  },
+  "jaspillite_hematite": {
+    "ore": "tfc:hematite",
+    "width": 24,
+    "height": 5,
+    "shape": "cluster",
+    "rarity": 90,
+    "minimum_height": 100,
+    "maximum_height": 160,
+    "density": 10,
+    "base_rocks": [
+      "tfc:jaspillite"
     ]
   }
 }
