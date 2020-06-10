@@ -87,12 +87,19 @@ let ORE_TYPES = {
   'thorianite': false,
   'chromite': false,
   'pyrolusite': false,
-  'magnesite': false,
-  'boron': false,
-  'spodumene': false,
-  'stibnite': false,
-  'mawsonite': false
+  'magnesite': true,
+  'spodumene': true,
+  'stibnite': true,
+  'mawsonite': false,
+  'beryl': true,
+  'zircon': true,
+  'villiaumite': false,
+  'rhodochrosite': false,
+  'fluorite': false,
+  'carobbiite': false,
+  'arsenic': false
 }
+
 let FULLBLOCK_TYPES = [
   'raw',
   'smooth',

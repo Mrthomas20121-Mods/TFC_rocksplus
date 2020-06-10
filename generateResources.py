@@ -111,7 +111,6 @@ ORE_TYPES = {
     'spodumene': True,
     'stibnite': True,
 	'mawsonite': False,
-    'zircon': True,
     'beryl': True,
     'zircon': True,
     'villiaumite': False,
