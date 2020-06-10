@@ -1,7 +1,7 @@
 package com.mrthomas20121.tfc_rocksplus.proxy;
 
 import net.minecraft.item.Item;
-import net.minecraftforge.common.config.Configuration;
+//import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -9,11 +9,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-import com.mrthomas20121.tfc_rocksplus.TFC_RocksPlus;
-import net.dries007.tfc.api.types.Rock;
-import net.dries007.tfc.api.types.RockCategory;
-
-import java.io.File;
+//import java.io.File;
 
 @Mod.EventBusSubscriber
 public class CommonProxy {
