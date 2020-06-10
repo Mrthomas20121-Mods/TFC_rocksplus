@@ -59,6 +59,9 @@ ROCK_TYPES = [
     'mylonite'
 ]
 
+# True - Generate Poor, Small, and Rich 
+# False - Generate only Normal ore items.
+
 ORE_TYPES = {
     'native_copper': True,
     'native_gold': True,
@@ -101,14 +104,21 @@ ORE_TYPES = {
     'bauxite': True,
     'wolframite': True,
     'cobaltite': True,
-    'thorianite': False,
+    'thorianite': True,
     'chromite': False,
-    'pyrolusite': False,
-    'magnesite': False,
-    'boron': False,
-    'spodumene': False,
-    'stibnite': False,
-	'mawsonite': False
+    'pyrolusite': True,
+    'magnesite': True,
+    'spodumene': True,
+    'stibnite': True,
+	'mawsonite': False,
+    'zircon': True,
+    'beryl': True,
+    'zircon': True,
+    'villiaumite': False,
+    'rhodochrosite': False,
+    'fluorite': False,
+    'carobbiite': False,
+    'arsenic': False
 }
 
 STAIR_VARIANTS = {
