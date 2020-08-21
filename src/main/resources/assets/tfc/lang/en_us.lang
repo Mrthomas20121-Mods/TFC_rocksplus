@@ -86,6 +86,7 @@ tile.tfc.ore.arsenic.blaimorite.name=Blaimorite Arsenic
 # blaimorite
 tile.tfc.spike.blaimorite.name=Blaimorite Spike 
 tile.tfc.stone.button.blaimorite.name=Blaimorite Button 
+tile.tfc.stone.pressure_plate.blaimorite.name=Blaimorite Pressure Plate
 item.tfc.rock.blaimorite.name=Blaimorite Rock
 item.tfc.brick.blaimorite.name=Blaimorite Brick
 tile.tfc.raw.blaimorite.name=Raw Blaimorite
@@ -171,6 +172,7 @@ tile.tfc.ore.arsenic.boninite.name=Boninite Arsenic
 # boninite
 tile.tfc.spike.boninite.name=Boninite Spike 
 tile.tfc.stone.button.boninite.name=Boninite Button 
+tile.tfc.stone.pressure_plate.boninite.name=Boninite Pressure Plate
 item.tfc.rock.boninite.name=Boninite Rock
 item.tfc.brick.boninite.name=Boninite Brick
 tile.tfc.raw.boninite.name=Raw Boninite
@@ -255,7 +257,8 @@ tile.tfc.ore.carobbiite.carbonatite.name=Carbonatite Carobbiite
 tile.tfc.ore.arsenic.carbonatite.name=Carbonatite Arsenic
 # carbonatite
 tile.tfc.spike.carbonatite.name=Carbonatite Spike 
-tile.tfc.stone.button.carbonatite.name=Carbonatite Button 
+tile.tfc.stone.button.carbonatite.name=Carbonatite Button
+tile.tfc.stone.pressure_plate.carbonatite.name=Carbonatite Pressure Plate
 item.tfc.rock.carbonatite.name=Carbonatite Rock
 item.tfc.brick.carbonatite.name=Carbonatite Brick
 tile.tfc.raw.carbonatite.name=Raw Carbonatite
@@ -340,7 +343,9 @@ tile.tfc.ore.carobbiite.foidolite.name=Foidolite Carobbiite
 tile.tfc.ore.arsenic.foidolite.name=Foidolite Arsenic
 # foidolite
 tile.tfc.spike.foidolite.name=Foidolite Spike 
-tile.tfc.stone.button.foidolite.name=Foidolite Button 
+tile.tfc.stone.button.foidolite.name=Foidolite Button
+tile.tfc.stone.pressure_plate.arkose.name=Arkose Pressure Plate
+tile.tfc.stone.pressure_plate.foidolite.name=Foidolite Pressure Plate
 item.tfc.rock.foidolite.name=Foidolite Rock
 item.tfc.brick.foidolite.name=Foidolite Brick
 tile.tfc.raw.foidolite.name=Raw Foidolite
@@ -510,7 +515,8 @@ tile.tfc.ore.carobbiite.jaspillite.name=Jaspillite Carobbiite
 tile.tfc.ore.arsenic.jaspillite.name=Jaspillite Arsenic
 # jaspillite
 tile.tfc.spike.jaspillite.name=Jaspillite Spike 
-tile.tfc.stone.button.jaspillite.name=Jaspillite Button 
+tile.tfc.stone.button.jaspillite.name=Jaspillite Button
+tile.tfc.stone.pressure_plate.jaspillite.name=Jaspillite Pressure Plate
 item.tfc.rock.jaspillite.name=Jaspillite Rock
 item.tfc.brick.jaspillite.name=Jaspillite Brick
 tile.tfc.raw.jaspillite.name=Raw Jaspillite
@@ -595,7 +601,8 @@ tile.tfc.ore.carobbiite.travertine.name=Travertine Carobbiite
 tile.tfc.ore.arsenic.travertine.name=Travertine Arsenic
 # travertine
 tile.tfc.spike.travertine.name=Travertine Spike 
-tile.tfc.stone.button.travertine.name=Travertine Button 
+tile.tfc.stone.button.travertine.name=Travertine Button
+tile.tfc.stone.pressure_plate.travertine.name=Travertine Pressure Plate
 item.tfc.rock.travertine.name=Travertine Rock
 item.tfc.brick.travertine.name=Travertine Brick
 tile.tfc.raw.travertine.name=Raw Travertine
@@ -680,7 +687,8 @@ tile.tfc.ore.carobbiite.wackestone.name=Wackestone Carobbiite
 tile.tfc.ore.arsenic.wackestone.name=Wackestone Arsenic
 # wackestone
 tile.tfc.spike.wackestone.name=Wackestone Spike 
-tile.tfc.stone.button.wackestone.name=Wackestone Button 
+tile.tfc.stone.button.wackestone.name=Wackestone Button
+tile.tfc.stone.pressure_plate.wackestone.name=Wackestone Pressure Plate
 item.tfc.rock.wackestone.name=Wackestone Rock
 item.tfc.brick.wackestone.name=Wackestone Brick
 tile.tfc.raw.wackestone.name=Raw Wackestone
@@ -765,7 +773,8 @@ tile.tfc.ore.carobbiite.blueschist.name=Blueschist Carobbiite
 tile.tfc.ore.arsenic.blueschist.name=Blueschist Arsenic
 # blueschist
 tile.tfc.spike.blueschist.name=Blueschist Spike 
-tile.tfc.stone.button.blueschist.name=Blueschist Button 
+tile.tfc.stone.button.blueschist.name=Blueschist Button
+tile.tfc.stone.pressure_plate.blueschist.name=Blueschist Pressure Plate
 item.tfc.rock.blueschist.name=Blueschist Rock
 item.tfc.brick.blueschist.name=Blueschist Brick
 tile.tfc.raw.blueschist.name=Raw Blueschist
@@ -850,7 +859,8 @@ tile.tfc.ore.carobbiite.greenschist.name=Greenschist Carobbiite
 tile.tfc.ore.arsenic.greenschist.name=Greenschist Arsenic
 # greenschist
 tile.tfc.spike.greenschist.name=Greenschist Spike 
-tile.tfc.stone.button.greenschist.name=Greenschist Button 
+tile.tfc.stone.button.greenschist.name=Greenschist Button
+tile.tfc.stone.pressure_plate.greenschist.name=Greenschist Pressure Plate
 item.tfc.rock.greenschist.name=Greenschist Rock
 item.tfc.brick.greenschist.name=Greenschist Brick
 tile.tfc.raw.greenschist.name=Raw Greenschist
@@ -935,7 +945,8 @@ tile.tfc.ore.carobbiite.cataclasite.name=Cataclasite Carobbiite
 tile.tfc.ore.arsenic.cataclasite.name=Cataclasite Arsenic
 # cataclasite
 tile.tfc.spike.cataclasite.name=Cataclasite Spike 
-tile.tfc.stone.button.cataclasite.name=Cataclasite Button 
+tile.tfc.stone.button.cataclasite.name=Cataclasite Button
+tile.tfc.stone.pressure_plate.cataclasite.name=Cataclasite Pressure Plate
 item.tfc.rock.cataclasite.name=Cataclasite Rock
 item.tfc.brick.cataclasite.name=Cataclasite Brick
 tile.tfc.raw.cataclasite.name=Raw Cataclasite
@@ -1020,7 +1031,8 @@ tile.tfc.ore.carobbiite.mylonite.name=Mylonite Carobbiite
 tile.tfc.ore.arsenic.mylonite.name=Mylonite Arsenic
 # mylonite
 tile.tfc.spike.mylonite.name=Mylonite Spike 
-tile.tfc.stone.button.mylonite.name=Mylonite Button 
+tile.tfc.stone.button.mylonite.name=Mylonite Button
+tile.tfc.stone.pressure_plate.mylonite.name=Mylonite Pressure Plate
 item.tfc.rock.mylonite.name=Mylonite Rock
 item.tfc.brick.mylonite.name=Mylonite Brick
 tile.tfc.raw.mylonite.name=Raw Mylonite

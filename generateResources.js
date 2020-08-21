@@ -175,6 +175,9 @@ for (let rockType of ROCK_TYPES) {
   // buttons
   langEntries = langEntries.concat(`tile.tfc.stone.button.${rockType}.name=${capitalizeFirstLetter(rockType)} Button \n`)
 
+  // pressure plates
+  langEntries = langEntries.concat(`tile.tfc.stone.pressure_plate.${rockType}.name=${capitalizeFirstLetter(rockType)} Pressure Plate \n`)
+
   // rock item
   langEntries = langEntries.concat(`item.tfc.rock.${rockType}.name=${capitalizeFirstLetter(rockType)} Rock\n`)
   langEntries = langEntries.concat(`item.tfc.brick.${rockType}.name=${capitalizeFirstLetter(rockType)} Brick\n`)
@@ -408,6 +411,25 @@ let recipes = {
     ],
     "result": {
       "item": "tfc:stone/button/stoned",
+      "count": 1
+    }
+  },
+  pressure_plate: {
+    "type": "tfc:damage_item_shapeless",
+    "ingredients": [
+      {
+        "item": "tfc:brick/stoned"
+      },
+      {
+        "item": "tfc:brick/stoned"
+      },
+      {
+        "type": "forge:ore_dict",
+        "ore": "chisel"
+      }
+    ],
+    "result": {
+      "item": "tfc:stone/pressure_plate/stoned",
       "count": 1
     }
   },
