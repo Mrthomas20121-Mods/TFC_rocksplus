@@ -1,0 +1,19 @@
+{
+    "type": "tfc:damage_item_shapeless",
+    "ingredients": [
+        {
+            "item": "tfc:brick/jaspillite"
+        },
+        {
+            "item": "tfc:brick/jaspillite"
+        },
+        {
+            "type": "forge:ore_dict",
+            "ore": "chisel"
+        }
+    ],
+    "result": {
+        "item": "tfc:stone/pressure_plate/jaspillite",
+        "count": 1
+    }
+}

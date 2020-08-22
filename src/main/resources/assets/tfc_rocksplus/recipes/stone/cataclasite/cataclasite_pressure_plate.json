@@ -1,0 +1,19 @@
+{
+    "type": "tfc:damage_item_shapeless",
+    "ingredients": [
+        {
+            "item": "tfc:brick/cataclasite"
+        },
+        {
+            "item": "tfc:brick/cataclasite"
+        },
+        {
+            "type": "forge:ore_dict",
+            "ore": "chisel"
+        }
+    ],
+    "result": {
+        "item": "tfc:stone/pressure_plate/cataclasite",
+        "count": 1
+    }
+}
