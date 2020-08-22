@@ -12,21 +12,6 @@
       "tfc:metamorphic"
     ]
   },
-  "pitchblende": {
-    "ore": "tfc:pitchblende",
-    "width": 5,
-    "height": 15,
-    "shape": "cluster",
-    "rarity": 60,
-    "minimum_height": 70,
-    "maximum_height": 140,
-    "density": 80,
-    "base_rocks": [
-      "tfc:metamorphic",
-      "tfc:wackestone",
-      "tfc:travertine"
-    ]
-  },
   "jaspillite_hematite": {
     "ore": "tfc:hematite",
     "width": 10,
