@@ -1,0 +1,19 @@
+{
+    "type": "tfc:damage_item_shapeless",
+    "ingredients": [
+        {
+            "item": "tfc:brick/travertine"
+        },
+        {
+            "item": "tfc:brick/travertine"
+        },
+        {
+            "type": "forge:ore_dict",
+            "ore": "chisel"
+        }
+    ],
+    "result": {
+        "item": "tfc:stone/pressure_plate/travertine",
+        "count": 1
+    }
+}
