@@ -1,6 +1,6 @@
-package com.mrthomas20121.tfc_rocksplus;
+package mrthomas20121.tfc_rocksplus;
 
-import static com.mrthomas20121.tfc_rocksplus.TFC_RocksPlus.MODID;
+import static mrthomas20121.tfc_rocksplus.TFC_RocksPlus.MODID;
 import static net.dries007.tfc.TerraFirmaCraft.MOD_ID;
 import static net.dries007.tfc.types.DefaultRocks.METAMORPHIC;
 import static net.dries007.tfc.types.DefaultRocks.SEDIMENTARY;
@@ -44,12 +44,12 @@ public class DefaultRocks {
                 new Rock(FOIDOLITE, IGNEOUS_INTRUSIVE, false),
                 new Rock(ARKOSE, SEDIMENTARY, false),
                 new Rock(JASPILLITE, SEDIMENTARY, false),
-                new Rock(TRAVERTINE, SEDIMENTARY, false),
+                new Rock(TRAVERTINE, SEDIMENTARY, true),
                 new Rock(WACKESTONE, SEDIMENTARY, false),
                 new Rock(BLUESCHIST, METAMORPHIC, false),
                 new Rock(GREENSCHIST, METAMORPHIC, false),
                 new Rock(CATACLASITE, METAMORPHIC, false),
-                new Rock(MYLONITE, METAMORPHIC, false)
+                new Rock(MYLONITE, METAMORPHIC, true)
         );
     }
 }

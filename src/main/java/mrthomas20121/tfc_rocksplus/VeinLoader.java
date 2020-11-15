@@ -1,4 +1,4 @@
-package com.mrthomas20121.tfc_rocksplus;
+package mrthomas20121.tfc_rocksplus;
 
 
 import java.io.File;
