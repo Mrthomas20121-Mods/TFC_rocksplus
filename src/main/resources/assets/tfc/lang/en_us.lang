@@ -83,6 +83,7 @@ tile.tfc.ore.rhodochrosite.blaimorite.name=Blaimorite Rhodochrosite
 tile.tfc.ore.fluorite.blaimorite.name=Blaimorite Fluorite
 tile.tfc.ore.carobbiite.blaimorite.name=Blaimorite Carobbiite
 tile.tfc.ore.arsenic.blaimorite.name=Blaimorite Arsenic
+tile.tfc.ore.halite.blaimorite.name=Blaimorite Halite
 # blaimorite
 tile.tfc.spike.blaimorite.name=Blaimorite Spike 
 tile.tfc.stone.button.blaimorite.name=Blaimorite Button 
@@ -169,6 +170,7 @@ tile.tfc.ore.rhodochrosite.boninite.name=Boninite Rhodochrosite
 tile.tfc.ore.fluorite.boninite.name=Boninite Fluorite
 tile.tfc.ore.carobbiite.boninite.name=Boninite Carobbiite
 tile.tfc.ore.arsenic.boninite.name=Boninite Arsenic
+tile.tfc.ore.halite.boninite.name=Boninite Halite
 # boninite
 tile.tfc.spike.boninite.name=Boninite Spike 
 tile.tfc.stone.button.boninite.name=Boninite Button 
@@ -255,6 +257,7 @@ tile.tfc.ore.rhodochrosite.carbonatite.name=Carbonatite Rhodochrosite
 tile.tfc.ore.fluorite.carbonatite.name=Carbonatite Fluorite
 tile.tfc.ore.carobbiite.carbonatite.name=Carbonatite Carobbiite
 tile.tfc.ore.arsenic.carbonatite.name=Carbonatite Arsenic
+tile.tfc.ore.halite.carbonatite.name=Carbonatite Halite
 # carbonatite
 tile.tfc.spike.carbonatite.name=Carbonatite Spike 
 tile.tfc.stone.button.carbonatite.name=Carbonatite Button
@@ -341,6 +344,7 @@ tile.tfc.ore.rhodochrosite.foidolite.name=Foidolite Rhodochrosite
 tile.tfc.ore.fluorite.foidolite.name=Foidolite Fluorite
 tile.tfc.ore.carobbiite.foidolite.name=Foidolite Carobbiite
 tile.tfc.ore.arsenic.foidolite.name=Foidolite Arsenic
+tile.tfc.ore.halite.foidolite.name=Foidolite Halite
 # foidolite
 tile.tfc.spike.foidolite.name=Foidolite Spike 
 tile.tfc.stone.button.foidolite.name=Foidolite Button
@@ -428,6 +432,7 @@ tile.tfc.ore.rhodochrosite.arkose.name=Arkose Rhodochrosite
 tile.tfc.ore.fluorite.arkose.name=Arkose Fluorite
 tile.tfc.ore.carobbiite.arkose.name=Arkose Carobbiite
 tile.tfc.ore.arsenic.arkose.name=Arkose Arsenic
+tile.tfc.ore.halite.arkose.name=Arkose Halite
 # arkose
 tile.tfc.spike.arkose.name=Arkose Spike 
 tile.tfc.stone.button.arkose.name=Arkose Button 
@@ -513,6 +518,7 @@ tile.tfc.ore.rhodochrosite.jaspillite.name=Jaspillite Rhodochrosite
 tile.tfc.ore.fluorite.jaspillite.name=Jaspillite Fluorite
 tile.tfc.ore.carobbiite.jaspillite.name=Jaspillite Carobbiite
 tile.tfc.ore.arsenic.jaspillite.name=Jaspillite Arsenic
+tile.tfc.ore.halite.jaspillite.name=Jaspillite Halite
 # jaspillite
 tile.tfc.spike.jaspillite.name=Jaspillite Spike 
 tile.tfc.stone.button.jaspillite.name=Jaspillite Button
@@ -599,6 +605,7 @@ tile.tfc.ore.rhodochrosite.travertine.name=Travertine Rhodochrosite
 tile.tfc.ore.fluorite.travertine.name=Travertine Fluorite
 tile.tfc.ore.carobbiite.travertine.name=Travertine Carobbiite
 tile.tfc.ore.arsenic.travertine.name=Travertine Arsenic
+tile.tfc.ore.halite.travertine.name=Travertine Halite
 # travertine
 tile.tfc.spike.travertine.name=Travertine Spike 
 tile.tfc.stone.button.travertine.name=Travertine Button
@@ -685,6 +692,7 @@ tile.tfc.ore.rhodochrosite.wackestone.name=Wackestone Rhodochrosite
 tile.tfc.ore.fluorite.wackestone.name=Wackestone Fluorite
 tile.tfc.ore.carobbiite.wackestone.name=Wackestone Carobbiite
 tile.tfc.ore.arsenic.wackestone.name=Wackestone Arsenic
+tile.tfc.ore.halite.wackestone.name=Wackestone Halite
 # wackestone
 tile.tfc.spike.wackestone.name=Wackestone Spike 
 tile.tfc.stone.button.wackestone.name=Wackestone Button
@@ -771,6 +779,7 @@ tile.tfc.ore.rhodochrosite.blueschist.name=Blueschist Rhodochrosite
 tile.tfc.ore.fluorite.blueschist.name=Blueschist Fluorite
 tile.tfc.ore.carobbiite.blueschist.name=Blueschist Carobbiite
 tile.tfc.ore.arsenic.blueschist.name=Blueschist Arsenic
+tile.tfc.ore.halite.blueschist.name=Blueschist Halite
 # blueschist
 tile.tfc.spike.blueschist.name=Blueschist Spike 
 tile.tfc.stone.button.blueschist.name=Blueschist Button
@@ -857,6 +866,7 @@ tile.tfc.ore.rhodochrosite.greenschist.name=Greenschist Rhodochrosite
 tile.tfc.ore.fluorite.greenschist.name=Greenschist Fluorite
 tile.tfc.ore.carobbiite.greenschist.name=Greenschist Carobbiite
 tile.tfc.ore.arsenic.greenschist.name=Greenschist Arsenic
+tile.tfc.ore.halite.greenschist.name=Greenschist Halite
 # greenschist
 tile.tfc.spike.greenschist.name=Greenschist Spike 
 tile.tfc.stone.button.greenschist.name=Greenschist Button
@@ -943,6 +953,7 @@ tile.tfc.ore.rhodochrosite.cataclasite.name=Cataclasite Rhodochrosite
 tile.tfc.ore.fluorite.cataclasite.name=Cataclasite Fluorite
 tile.tfc.ore.carobbiite.cataclasite.name=Cataclasite Carobbiite
 tile.tfc.ore.arsenic.cataclasite.name=Cataclasite Arsenic
+tile.tfc.ore.halite.cataclasite.name=Cataclasite Halite
 # cataclasite
 tile.tfc.spike.cataclasite.name=Cataclasite Spike 
 tile.tfc.stone.button.cataclasite.name=Cataclasite Button
@@ -1029,6 +1040,7 @@ tile.tfc.ore.rhodochrosite.mylonite.name=Mylonite Rhodochrosite
 tile.tfc.ore.fluorite.mylonite.name=Mylonite Fluorite
 tile.tfc.ore.carobbiite.mylonite.name=Mylonite Carobbiite
 tile.tfc.ore.arsenic.mylonite.name=Mylonite Arsenic
+tile.tfc.ore.halite.mylonite.name=Mylonite Halite
 # mylonite
 tile.tfc.spike.mylonite.name=Mylonite Spike 
 tile.tfc.stone.button.mylonite.name=Mylonite Button

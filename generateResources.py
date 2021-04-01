@@ -117,7 +117,8 @@ ORE_TYPES = {
     'rhodochrosite': False,
     'fluorite': False,
     'carobbiite': False,
-    'arsenic': False
+    'arsenic': False,
+    'halite': False
 }
 
 STAIR_VARIANTS = {

@@ -97,7 +97,8 @@ let ORE_TYPES = {
   'rhodochrosite': false,
   'fluorite': false,
   'carobbiite': false,
-  'arsenic': false
+  'arsenic': false,
+  'halite': false
 }
 
 let FULLBLOCK_TYPES = [
